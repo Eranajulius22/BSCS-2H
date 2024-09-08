@@ -1,0 +1,72 @@
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('pagod.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #0c0c0c;
+    padding: 100px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #000000;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu-category {
+    background-color: #fcefef83;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.menu-category h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.menu-category ul {
+    list-style-type: none;
+}
+
+.menu-category li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #000000;
+}
+
+.menu-category li:last-child {
+    border-bottom: none;
+}
+
+.item-name {
+    font-size: 1.2em;
+}
+
+.item-price {
+    font-size: 1.2em;
+    color: #000000;
+}

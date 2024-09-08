@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body style="background-image: url('pakman.jpg'); background-size: cover; background-position: center; color: #000000; padding: 20px;">
+    
+    <center>
+    
+    <form action="" method="post" enctype="multipart/form-data" style="background-color:  rgba(255, 255, 255, 0.315); padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgb(0, 0, 0);">
+   
+    <p><a href="index.html"><h5>GO BACK TO THE MENU!</h5></a></p>
+
+     <h1>Registration Form</h1>
+     
+    <h3>Please fill out this form with the required information</h3>
+
+       
+        <label for="first-name">First Name:</label><br>
+        <input type="text" id="first-name" name="first-name" required>
+       
+        <br><br>
+
+        <label for="last-name">Last Name:</label><br>
+        <input type="text" id="last-name" name="last-name" required>
+     
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+      
+        <br><br>
+         
+        <label for="phone number">Phone Number</label><br>
+        <input type="phone number" id="phone number" name="phone number" required>
+       
+         <br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required>
+       
+        <br><br>
+<hr>
+        <label><h4>Account Type (required)</h4></label>
+        <label><input type="radio" name="status" value="personal" required> Student</label>
+        <br>
+        <label><input type="radio" name="status" value="business" required> Business</label>
+        <br><br>
+<hr>
+        <label for="profile-picture">Upload Profile Picture:</label><br><br>
+        <input type="file" id="profile-picture" name="profile-picture">
+        <br><br>
+
+        <label for="age">Input your age (years):</label><br>
+        <input type="number" id="age" name="age" min="0" required>
+        <br><br>
+
+        <label for="bio">Bio:</label><br>
+        <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Tells us about yourself"></textarea>
+        <br><br>
+
+        <label><input type="checkbox" id="terms" name="
+            " required> I accept the terms and conditions</label>
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    </center>
+</body>
+</html>
